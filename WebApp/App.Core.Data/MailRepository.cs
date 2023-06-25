@@ -45,7 +45,7 @@ namespace App.Core.Data
 
         public void Enviar(string asunto, string contenido, string remitente, string destinatario)
         {
-            /* var movie = new Mail();
+             var movie = new Mail();
 
             using (var conection = new MailsContext())
             {
@@ -57,24 +57,24 @@ namespace App.Core.Data
                     movie.Destinatario = destinatario;
                 }
 
-            } Duda */ 
+            } 
                
         }
 
 
-        /* public List<Mail> BSalida()
-        {
+        public List<Mail> BSalida()
+         {
             var lista = new List<Mail>();
 
             return lista;
-    } */
+            } 
 
-        /* public List<Mail> BEntrada()
+         public List<Mail> BEntrada()
         {
             var lista= new List<Mail>();
 
             return lista;
-    } */
+    } 
 
     }
 }

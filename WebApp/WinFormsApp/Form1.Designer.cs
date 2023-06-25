@@ -28,248 +28,250 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            MailId = new DataGridViewTextBoxColumn();
-            Asunto = new DataGridViewTextBoxColumn();
-            btnSiguiente = new Button();
-            btnAnterior = new Button();
-            cbTamanioPagina = new ComboBox();
-            txtSearch = new TextBox();
-            txtPageIndex = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            btnEnviar = new Button();
-            TxtAsunto = new TextBox();
-            TxtContenido = new TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            TxtRemitente = new TextBox();
-            label5 = new Label();
-            TxtDestinatario = new TextBox();
-            label3 = new Label();
-            label4 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.MailId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Asunto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSiguiente = new System.Windows.Forms.Button();
+            this.btnAnterior = new System.Windows.Forms.Button();
+            this.cbTamanioPagina = new System.Windows.Forms.ComboBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.txtPageIndex = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnEnviar = new System.Windows.Forms.Button();
+            this.TxtAsunto = new System.Windows.Forms.TextBox();
+            this.TxtContenido = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.TxtRemitente = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.TxtDestinatario = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridView1.BackgroundColor = Color.Snow;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { MailId, Asunto });
-            dataGridView1.Location = new Point(12, 75);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(507, 331);
-            dataGridView1.TabIndex = 0;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Snow;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MailId,
+            this.Asunto});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 78);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(507, 331);
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // MailId
             // 
-            MailId.HeaderText = "MailId";
-            MailId.Name = "MailId";
-            MailId.ReadOnly = true;
+            this.MailId.HeaderText = "MailId";
+            this.MailId.Name = "MailId";
+            this.MailId.ReadOnly = true;
             // 
             // Asunto
             // 
-            Asunto.HeaderText = "Asunto";
-            Asunto.Name = "Asunto";
-            Asunto.ReadOnly = true;
+            this.Asunto.HeaderText = "Asunto";
+            this.Asunto.Name = "Asunto";
+            this.Asunto.ReadOnly = true;
             // 
             // btnSiguiente
             // 
-            btnSiguiente.BackColor = Color.Lavender;
-            btnSiguiente.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSiguiente.Location = new Point(713, 35);
-            btnSiguiente.Name = "btnSiguiente";
-            btnSiguiente.Size = new Size(75, 23);
-            btnSiguiente.TabIndex = 1;
-            btnSiguiente.Text = "Siguiente >";
-            btnSiguiente.UseVisualStyleBackColor = false;
-            btnSiguiente.Click += btnSiguiente_Click;
+            this.btnSiguiente.BackColor = System.Drawing.Color.Lavender;
+            this.btnSiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSiguiente.Location = new System.Drawing.Point(713, 35);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(75, 23);
+            this.btnSiguiente.TabIndex = 1;
+            this.btnSiguiente.Text = "Siguiente >";
+            this.btnSiguiente.UseVisualStyleBackColor = false;
             // 
             // btnAnterior
             // 
-            btnAnterior.BackColor = Color.Lavender;
-            btnAnterior.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAnterior.Location = new Point(577, 36);
-            btnAnterior.Name = "btnAnterior";
-            btnAnterior.Size = new Size(75, 23);
-            btnAnterior.TabIndex = 2;
-            btnAnterior.Text = "< Anterior";
-            btnAnterior.UseVisualStyleBackColor = false;
-            btnAnterior.Click += btnAnterior_Click;
+            this.btnAnterior.BackColor = System.Drawing.Color.Lavender;
+            this.btnAnterior.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAnterior.Location = new System.Drawing.Point(577, 36);
+            this.btnAnterior.Name = "btnAnterior";
+            this.btnAnterior.Size = new System.Drawing.Size(75, 23);
+            this.btnAnterior.TabIndex = 2;
+            this.btnAnterior.Text = "< Anterior";
+            this.btnAnterior.UseVisualStyleBackColor = false;
             // 
             // cbTamanioPagina
             // 
-            cbTamanioPagina.FormattingEnabled = true;
-            cbTamanioPagina.Items.AddRange(new object[] { "5", "10", "25", "50", "100" });
-            cbTamanioPagina.Location = new Point(525, 36);
-            cbTamanioPagina.Name = "cbTamanioPagina";
-            cbTamanioPagina.Size = new Size(46, 23);
-            cbTamanioPagina.TabIndex = 3;
-            cbTamanioPagina.SelectedIndexChanged += cbTamanioPagina_SelectedIndexChanged;
+            this.cbTamanioPagina.FormattingEnabled = true;
+            this.cbTamanioPagina.Items.AddRange(new object[] {
+            "5",
+            "10",
+            "25",
+            "50",
+            "100"});
+            this.cbTamanioPagina.Location = new System.Drawing.Point(525, 36);
+            this.cbTamanioPagina.Name = "cbTamanioPagina";
+            this.cbTamanioPagina.Size = new System.Drawing.Size(46, 23);
+            this.cbTamanioPagina.TabIndex = 3;
             // 
             // txtSearch
             // 
-            txtSearch.Location = new Point(12, 35);
-            txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(507, 23);
-            txtSearch.TabIndex = 4;
-            txtSearch.TextChanged += txtSearch_TextChanged;
+            this.txtSearch.Location = new System.Drawing.Point(12, 35);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(507, 23);
+            this.txtSearch.TabIndex = 4;
             // 
             // txtPageIndex
             // 
-            txtPageIndex.Location = new Point(658, 36);
-            txtPageIndex.Name = "txtPageIndex";
-            txtPageIndex.Size = new Size(49, 23);
-            txtPageIndex.TabIndex = 5;
-            txtPageIndex.TextChanged += txtPageIndex_TextChanged;
+            this.txtPageIndex.Location = new System.Drawing.Point(658, 36);
+            this.txtPageIndex.Name = "txtPageIndex";
+            this.txtPageIndex.Size = new System.Drawing.Size(49, 23);
+            this.txtPageIndex.TabIndex = 5;
             // 
             // button1
             // 
-            button1.BackColor = Color.Lavender;
-            button1.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(12, 415);
-            button1.Name = "button1";
-            button1.Size = new Size(162, 23);
-            button1.TabIndex = 6;
-            button1.Text = "Bandeja de entrada";
-            button1.UseVisualStyleBackColor = false;
+            this.button1.BackColor = System.Drawing.Color.Lavender;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(12, 415);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(162, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Bandeja de entrada";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            button2.BackColor = Color.Lavender;
-            button2.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(371, 415);
-            button2.Name = "button2";
-            button2.Size = new Size(148, 23);
-            button2.TabIndex = 7;
-            button2.Text = "Bandeja de salida";
-            button2.UseVisualStyleBackColor = false;
+            this.button2.BackColor = System.Drawing.Color.Lavender;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(371, 415);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(148, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Bandeja de salida";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // btnEnviar
             // 
-            btnEnviar.BackColor = Color.Lavender;
-            btnEnviar.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnEnviar.Location = new Point(632, 276);
-            btnEnviar.Name = "btnEnviar";
-            btnEnviar.Size = new Size(75, 23);
-            btnEnviar.TabIndex = 8;
-            btnEnviar.Text = "Enviar";
-            btnEnviar.UseVisualStyleBackColor = false;
-            btnEnviar.Click += btnEnviar_Click;
+            this.btnEnviar.BackColor = System.Drawing.Color.Lavender;
+            this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEnviar.Location = new System.Drawing.Point(632, 276);
+            this.btnEnviar.Name = "btnEnviar";
+            this.btnEnviar.Size = new System.Drawing.Size(75, 23);
+            this.btnEnviar.TabIndex = 8;
+            this.btnEnviar.Text = "Enviar";
+            this.btnEnviar.UseVisualStyleBackColor = false;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click_1);
             // 
             // TxtAsunto
             // 
-            TxtAsunto.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            TxtAsunto.Location = new Point(525, 112);
-            TxtAsunto.Name = "TxtAsunto";
-            TxtAsunto.Size = new Size(263, 22);
-            TxtAsunto.TabIndex = 9;
+            this.TxtAsunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtAsunto.Location = new System.Drawing.Point(525, 112);
+            this.TxtAsunto.Name = "TxtAsunto";
+            this.TxtAsunto.Size = new System.Drawing.Size(263, 21);
+            this.TxtAsunto.TabIndex = 9;
             // 
             // TxtContenido
             // 
-            TxtContenido.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            TxtContenido.Location = new Point(525, 156);
-            TxtContenido.Name = "TxtContenido";
-            TxtContenido.Size = new Size(263, 22);
-            TxtContenido.TabIndex = 10;
+            this.TxtContenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtContenido.Location = new System.Drawing.Point(525, 156);
+            this.TxtContenido.Name = "TxtContenido";
+            this.TxtContenido.Size = new System.Drawing.Size(263, 21);
+            this.TxtContenido.TabIndex = 10;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(533, 94);
-            label1.Name = "label1";
-            label1.Size = new Size(49, 17);
-            label1.TabIndex = 11;
-            label1.Text = "Asunto";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(533, 94);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 15);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Asunto";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(533, 138);
-            label2.Name = "label2";
-            label2.Size = new Size(71, 17);
-            label2.TabIndex = 12;
-            label2.Text = "Contenido";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(533, 138);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 15);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Contenido";
             // 
             // TxtRemitente
             // 
-            TxtRemitente.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            TxtRemitente.Location = new Point(525, 200);
-            TxtRemitente.Name = "TxtRemitente";
-            TxtRemitente.Size = new Size(263, 22);
-            TxtRemitente.TabIndex = 15;
+            this.TxtRemitente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TxtRemitente.Location = new System.Drawing.Point(525, 200);
+            this.TxtRemitente.Name = "TxtRemitente";
+            this.TxtRemitente.Size = new System.Drawing.Size(263, 21);
+            this.TxtRemitente.TabIndex = 15;
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(12, 17);
-            label5.Name = "label5";
-            label5.Size = new Size(50, 17);
-            label5.TabIndex = 16;
-            label5.Text = "Buscar:";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(12, 17);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(48, 15);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Buscar:";
             // 
             // TxtDestinatario
             // 
-            TxtDestinatario.Location = new Point(525, 247);
-            TxtDestinatario.Name = "TxtDestinatario";
-            TxtDestinatario.Size = new Size(263, 23);
-            TxtDestinatario.TabIndex = 17;
+            this.TxtDestinatario.Location = new System.Drawing.Point(525, 247);
+            this.TxtDestinatario.Name = "TxtDestinatario";
+            this.TxtDestinatario.Size = new System.Drawing.Size(263, 23);
+            this.TxtDestinatario.TabIndex = 17;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(533, 182);
-            label3.Name = "label3";
-            label3.Size = new Size(70, 17);
-            label3.TabIndex = 13;
-            label3.Text = "Remitente";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(533, 182);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 15);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Remitente";
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(533, 227);
-            label4.Name = "label4";
-            label4.Size = new Size(81, 17);
-            label4.TabIndex = 18;
-            label4.Text = "Destinatario";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(533, 227);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 15);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "Destinatario";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LavenderBlush;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label4);
-            Controls.Add(TxtDestinatario);
-            Controls.Add(label5);
-            Controls.Add(TxtRemitente);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(TxtContenido);
-            Controls.Add(TxtAsunto);
-            Controls.Add(btnEnviar);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(txtPageIndex);
-            Controls.Add(txtSearch);
-            Controls.Add(cbTamanioPagina);
-            Controls.Add(btnAnterior);
-            Controls.Add(btnSiguiente);
-            Controls.Add(dataGridView1);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.TxtDestinatario);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.TxtRemitente);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.TxtContenido);
+            this.Controls.Add(this.TxtAsunto);
+            this.Controls.Add(this.btnEnviar);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtPageIndex);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.cbTamanioPagina);
+            this.Controls.Add(this.btnAnterior);
+            this.Controls.Add(this.btnSiguiente);
+            this.Controls.Add(this.dataGridView1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
