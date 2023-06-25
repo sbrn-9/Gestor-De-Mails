@@ -26,18 +26,18 @@ namespace App.Core.Business
 
         public void Enviar(string asunto, string contenido, string remitente, string destinatario)
         {
-             _mailRepository.Enviar(asunto,contenido,remitente,destinatario);
+             //_mailRepository.Enviar(asunto,contenido,remitente,destinatario);
         }
 
-        public List<Mail> BSalida()
+        /*public List<Mail> BSalida()
         {
-            return _mailRepository.BSalida();
+            //return _mailRepository.BSalida();
         }
 
         public List<Mail> BEntrada()
         {
             return _mailRepository.BEntrada();
-        }
+        }*/
 
     }
 }
