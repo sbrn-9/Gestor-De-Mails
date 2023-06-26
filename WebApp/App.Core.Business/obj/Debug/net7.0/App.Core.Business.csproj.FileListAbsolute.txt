@@ -1,0 +1,17 @@
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.csproj.AssemblyReference.cache
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.AssemblyInfoInputs.cache
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.AssemblyInfo.cs
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.csproj.CoreCompileInputs.cache
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Business.deps.json
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Business.dll
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Business.pdb
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Data.dll
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Entities.dll
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Data.pdb
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Entities.pdb
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.csproj.CopyComplete
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.dll
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\refint\App.Core.Business.dll
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.pdb
+C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\ref\App.Core.Business.dll

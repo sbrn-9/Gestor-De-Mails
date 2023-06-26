@@ -1,4 +1,5 @@
 using App.Core.Business;
+using Microsoft.Data.SqlClient;
 
 namespace WinFormsApp
 {
@@ -7,10 +8,17 @@ namespace WinFormsApp
         private MailBusiness _mailBusiness;
         private int currentPageIndex = 1;
         private bool _txtPageIndexBlock = false;
-
+        SqlConnection conexion = new SqlConnection("Persist Security Info=True;Initial Catalog=Mails;Data Source=.; Integrated Security=True;TrustServerCertificate=True;");
         public Form1()
         {
             _mailBusiness = new MailBusiness();
+            try
+            {
+                conexion.Open();
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Error");
+            }
             InitializeComponent();
 
         }
@@ -65,7 +73,7 @@ namespace WinFormsApp
             }
             currentPageIndex--;
             CargarDatos(currentPageIndex);
-            //txtPageIndex.Text = currentPageIndex.ToString();
+            txtPageIndex.Text = currentPageIndex.ToString();
         }
 
         private void txtPageIndex_TextChanged(object sender, EventArgs e)
@@ -74,7 +82,7 @@ namespace WinFormsApp
             {
                 return;
             }
-            //currentPageIndex = int.Parse(txtPageIndex.Text);
+            currentPageIndex = int.Parse(txtPageIndex.Text);
 
             int index;
 
@@ -97,7 +105,27 @@ namespace WinFormsApp
 
         private void btnEnviar_Click(object sender, EventArgs e) //Enviar mail
         {
-          //_mailBusiness.Enviar(asunto: TxtAsunto.Text, contenido: TxtContenido.Text, remitente: TxtRemitente.Text, destinatario: TxtDestinatario.Text);  Duda
+            
+            _mailBusiness.Enviar(asunto: TxtAsunto.Text, contenido: TxtContenido.Text, remitente: TxtRemitente.Text, destinatario: TxtDestinatario.Text);  
+            
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnEnviar_Click_1(object sender, EventArgs e)
+        {
+            string query = "INSERT INTO Mail (Remitente,Asunto,Contenido,Destinatario) VALUES (@remitente,@asunto,@contenido,@destinatario)";
+            //_mailBusiness.Enviar(asunto: TxtAsunto.Text, contenido: TxtContenido.Text, remitente: TxtRemitente.Text, destinatario: TxtDestinatario.Text);
+            SqlCommand comando = new SqlCommand(query, conexion);
+            comando.Parameters.AddWithValue("@remitente", TxtRemitente.Text);
+            comando.Parameters.AddWithValue("@asunto", TxtAsunto.Text);
+            comando.Parameters.AddWithValue("@contenido", TxtContenido.Text);
+            comando.Parameters.AddWithValue("@destinatario", TxtDestinatario.Text);
+            comando.ExecuteNonQuery();
+            MessageBox.Show("Insertado");
         }
     }
 }
