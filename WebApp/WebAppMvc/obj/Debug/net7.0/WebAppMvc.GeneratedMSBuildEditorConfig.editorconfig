@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAppMvc
 build_property.RootNamespace = WebAppMvc
-build_property.ProjectDir = C:\Users\Marce\source\repos\Gestor-De-Mail\WebApp\WebAppMvc\
+build_property.ProjectDir = D:\C# course\gestor\WebApp\WebAppMvc\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Marce\source\repos\Gestor-De-Mail\WebApp\WebAppMvc
+build_property.MSBuildProjectDirectory = D:\C# course\gestor\WebApp\WebAppMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/Home/Index.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/Home/Privacy.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/Mail/Detalle.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/Mail/Detalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxEZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/Mail/Inbox.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/Mail/Inbox.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxJbmJveC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/Mail/Index.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/Mail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/Shared/Error.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/_ViewImports.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/_ViewStart.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marce/source/repos/Gestor-De-Mail/WebApp/WebAppMvc/Views/Shared/_Layout.cshtml]
+[D:/C\# course/gestor/WebApp/WebAppMvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-je0y6w2fh2

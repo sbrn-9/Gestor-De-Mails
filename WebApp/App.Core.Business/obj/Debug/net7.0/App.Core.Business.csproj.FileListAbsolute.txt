@@ -15,3 +15,20 @@ C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\ne
 C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\refint\App.Core.Business.dll
 C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.pdb
 C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Business\obj\Debug\net7.0\ref\App.Core.Business.dll
+D:\C# course\gestor\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Business.deps.json
+D:\C# course\gestor\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Business.dll
+D:\C# course\gestor\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Business.pdb
+D:\C# course\gestor\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Data.dll
+D:\C# course\gestor\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Entities.dll
+D:\C# course\gestor\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Data.pdb
+D:\C# course\gestor\WebApp\App.Core.Business\bin\Debug\net7.0\App.Core.Entities.pdb
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.csproj.AssemblyReference.cache
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.AssemblyInfoInputs.cache
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.AssemblyInfo.cs
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.csproj.CoreCompileInputs.cache
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.csproj.CopyComplete
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.dll
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\refint\App.Core.Business.dll
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\App.Core.Business.pdb
+D:\C# course\gestor\WebApp\App.Core.Business\obj\Debug\net7.0\ref\App.Core.Business.dll

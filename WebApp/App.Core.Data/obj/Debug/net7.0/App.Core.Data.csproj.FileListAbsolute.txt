@@ -13,3 +13,18 @@ C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Data\obj\Debug\net7.0
 C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Data\obj\Debug\net7.0\refint\App.Core.Data.dll
 C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.pdb
 C:\Users\Marce\Source\Repos\Gestor-De-Mail\WebApp\App.Core.Data\obj\Debug\net7.0\ref\App.Core.Data.dll
+D:\C# course\gestor\WebApp\App.Core.Data\bin\Debug\net7.0\App.Core.Data.deps.json
+D:\C# course\gestor\WebApp\App.Core.Data\bin\Debug\net7.0\App.Core.Data.dll
+D:\C# course\gestor\WebApp\App.Core.Data\bin\Debug\net7.0\App.Core.Data.pdb
+D:\C# course\gestor\WebApp\App.Core.Data\bin\Debug\net7.0\App.Core.Entities.dll
+D:\C# course\gestor\WebApp\App.Core.Data\bin\Debug\net7.0\App.Core.Entities.pdb
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.csproj.AssemblyReference.cache
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.AssemblyInfoInputs.cache
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.AssemblyInfo.cs
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.csproj.CoreCompileInputs.cache
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.csproj.CopyComplete
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.dll
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\refint\App.Core.Data.dll
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\App.Core.Data.pdb
+D:\C# course\gestor\WebApp\App.Core.Data\obj\Debug\net7.0\ref\App.Core.Data.dll

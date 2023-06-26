@@ -3238,11 +3238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\WebAppMvc\\WebAppMvc.csproj",
+      "projectUniqueName": "D:\\C# course\\gestor\\WebApp\\WebAppMvc\\WebAppMvc.csproj",
       "projectName": "WebAppMvc",
-      "projectPath": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\WebAppMvc\\WebAppMvc.csproj",
+      "projectPath": "D:\\C# course\\gestor\\WebApp\\WebAppMvc\\WebAppMvc.csproj",
       "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\WebAppMvc\\obj\\",
+      "outputPath": "D:\\C# course\\gestor\\WebApp\\WebAppMvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3259,11 +3259,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\App.Core.Business\\App.Core.Business.csproj": {
-              "projectPath": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\App.Core.Business\\App.Core.Business.csproj"
+            "D:\\C# course\\gestor\\WebApp\\App.Core.Business\\App.Core.Business.csproj": {
+              "projectPath": "D:\\C# course\\gestor\\WebApp\\App.Core.Business\\App.Core.Business.csproj"
             },
-            "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj": {
-              "projectPath": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj"
+            "D:\\C# course\\gestor\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj": {
+              "projectPath": "D:\\C# course\\gestor\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj"
             }
           }
         }

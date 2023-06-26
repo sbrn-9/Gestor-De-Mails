@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "awYlEFo9BP/krnCacgcFDdFbDwomXwh30PruQQNCoLxEVUCZh71zvnVuxp30q8Y6+5yBmVywjGoDYtA6SBYbeg==",
+  "dgSpecHash": "Rs4zcG3DsXTj43l7QAnm475xci0IAY08QiNqKaQYXY4m+tTwQgsozfNefZozewJRs/W5DGud3JLOqIPUDyY/dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\WinFormsApp\\WinFormsApp.csproj",
+  "projectFilePath": "D:\\C# course\\gestor\\WebApp\\WinFormsApp\\WinFormsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marce\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Marce\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

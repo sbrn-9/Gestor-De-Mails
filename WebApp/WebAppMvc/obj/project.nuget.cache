@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0aGh+1WTPoUwtMkjrI7YeMlfL1NOd+HNRGPzRvBI9OZnKDeA6xD2X9UgN/4821Evzx0D2vSxal6vQl12Zid91w==",
+  "dgSpecHash": "GBFSwMFN85wDM8oiviHLnO0ewIb/Khz+3JT2KH86kivneisUBT+TNm6xKWm4IGHLhW5jAexDstbWENIrYcbIhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\WebAppMvc\\WebAppMvc.csproj",
+  "projectFilePath": "D:\\C# course\\gestor\\WebApp\\WebAppMvc\\WebAppMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marce\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Marce\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

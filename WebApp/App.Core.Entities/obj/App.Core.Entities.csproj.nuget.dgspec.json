@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj": {}
+    "D:\\C# course\\gestor\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj": {
+    "D:\\C# course\\gestor\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj",
+        "projectUniqueName": "D:\\C# course\\gestor\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj",
         "projectName": "App.Core.Entities",
-        "projectPath": "C:\\Users\\Marce\\source\\repos\\Gestor-De-Mail\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj",
+        "projectPath": "D:\\C# course\\gestor\\WebApp\\App.Core.Entities\\App.Core.Entities.csproj",
         "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marce\\Source\\Repos\\Gestor-De-Mail\\WebApp\\App.Core.Entities\\obj\\",
+        "outputPath": "D:\\C# course\\gestor\\WebApp\\App.Core.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marce\\AppData\\Roaming\\NuGet\\NuGet.Config",

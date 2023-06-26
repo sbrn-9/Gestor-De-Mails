@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.MailId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Asunto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvTabla = new System.Windows.Forms.DataGridView();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnAnterior = new System.Windows.Forms.Button();
             this.cbTamanioPagina = new System.Windows.Forms.ComboBox();
@@ -48,34 +46,19 @@
             this.TxtDestinatario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTabla)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvTabla
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Snow;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MailId,
-            this.Asunto});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 78);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(507, 331);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
-            // 
-            // MailId
-            // 
-            this.MailId.HeaderText = "MailId";
-            this.MailId.Name = "MailId";
-            this.MailId.ReadOnly = true;
-            // 
-            // Asunto
-            // 
-            this.Asunto.HeaderText = "Asunto";
-            this.Asunto.Name = "Asunto";
-            this.Asunto.ReadOnly = true;
+            this.dgvTabla.BackgroundColor = System.Drawing.Color.Snow;
+            this.dgvTabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvTabla.Location = new System.Drawing.Point(12, 78);
+            this.dgvTabla.Name = "dgvTabla";
+            this.dgvTabla.RowTemplate.Height = 25;
+            this.dgvTabla.Size = new System.Drawing.Size(507, 331);
+            this.dgvTabla.TabIndex = 0;
+            this.dgvTabla.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // btnSiguiente
             // 
@@ -137,6 +120,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Bandeja de entrada";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -148,6 +132,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "Bandeja de salida";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnEnviar
             // 
@@ -265,10 +250,11 @@
             this.Controls.Add(this.cbTamanioPagina);
             this.Controls.Add(this.btnAnterior);
             this.Controls.Add(this.btnSiguiente);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvTabla);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvTabla)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,13 +262,11 @@
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dgvTabla;
         private Button btnSiguiente;
         private Button btnAnterior;
         private ComboBox cbTamanioPagina;
         private TextBox txtSearch;
-        private DataGridViewTextBoxColumn MailId;
-        private DataGridViewTextBoxColumn Asunto;
         private TextBox txtPageIndex;
         private Button button1;
         private Button button2;

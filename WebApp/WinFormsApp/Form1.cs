@@ -1,5 +1,6 @@
 using App.Core.Business;
 using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace WinFormsApp
 {
@@ -42,7 +43,7 @@ namespace WinFormsApp
                                              pageSize: pageSize,
                                              pageIndex: pageIndex);
 
-            dataGridView1.DataSource = mails;
+            dgvTabla.DataSource = mails;
 
         }
 
@@ -126,6 +127,32 @@ namespace WinFormsApp
             comando.Parameters.AddWithValue("@destinatario", TxtDestinatario.Text);
             comando.ExecuteNonQuery();
             MessageBox.Show("Insertado");
+            conexion.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SqlCommand comando = new SqlCommand("Select * from mail", conexion);
+            SqlDataAdapter adaptador = new SqlDataAdapter();
+            adaptador.SelectCommand= comando;
+            DataTable tabla = new DataTable();
+            adaptador.Fill(tabla);
+            dgvTabla.DataSource = tabla;
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SqlCommand comando = new SqlCommand("Select * from mail", conexion);
+            SqlDataAdapter adaptador = new SqlDataAdapter();
+            adaptador.SelectCommand = comando;
+            DataTable tabla = new DataTable();
+            adaptador.Fill(tabla);
+            dgvTabla.DataSource = tabla;
         }
     }
 }
